@@ -1,0 +1,532 @@
+body{
+    background-color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display:flex;
+    padding:1px;
+    /* background-position:  */
+}
+.main-1{
+    background-image: url("my-image.jpg");
+    height:600px;
+   
+}
+.img{
+    width: 180px;
+    height: 118px; 
+}
+.liste ul{
+     display:flex;
+     align-items: flex-start;
+     list-style-type: none;
+     /* padding:50px 200px; */
+     height: 20px;
+     color:#6e7b8c;
+
+ 
+} 
+.product{
+    color: #6e7b8c;
+    text-decoration: none;
+}
+
+.product:hover{
+    color:#363948;
+}
+.product a{
+color:#363948 !important;
+}
+.wistia-list1{
+  border-bottom: 1px solid;
+  border-color: rgb(239, 239, 239);
+}
+.wistia-list1> wistia-list{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wistia-list2 li{
+       margin-right:25px;  
+      
+}
+.wistia-list li{
+    margin-right: 25px;
+}
+.wistia-list{
+    background-color: white;
+    color:#6e7b8c;
+   /* border: 1px solid #efefef;*/
+
+   
+font-size:15px;
+font-weight: bold;
+margin:0;
+display: flex;
+padding: 20px 20px 20px 30px;
+   
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-start; */
+    flex:2;
+       border: 1px solid #efefef;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(239, 239, 239);
+
+
+}
+
+.Wistia-Logo-1{
+    background-image: url(https://www.cdnetworks.com/resources/case-studies/wistia.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:200px;
+    height: auto;
+  
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.sing-up{
+ background-color: white;
+ border: 5px solid  ghostwhite;
+ color: rgb(0, 174, 255);
+ text-decoration: none; 
+}
+.login{
+       color: #6c798b; 
+    border-left: 1px solid;
+    border-color: rgb(239, 239, 239); 
+}
+.nv-bt{
+    padding:0px 5px 0px 5px;
+    border: 1px solid #fffcfc;
+ font-size: 20px;
+ font-weight: bold;
+ margin:0;
+ flex:1;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ background-image: url(http://www.w3.org/2000/svg);
+ text-decoration: none;
+}
+.nv-bt a{
+    text-decoration: none;
+
+}
+.navigation{
+    display: flex;
+ flex: 1;
+}
+.navigation hover
+
+./*nv-bt:hover{
+    border:25px;
+    color: aqua;
+    }*/
+.main-1{
+display: flex;
+align-items: center;
+
+}
+.color{
+    color: white;
+
+}
+.wrap{
+
+}
+.watch-vedio{
+    width: 200px;
+    height:70;
+    padding: 8px;
+   margin: 5px;
+    cursor: pointer;
+
+}
+.watch-vedio:hover{
+box-shadow: 0 10px #9CA8B7;
+}
+.parent{
+    display:flex;
+     flex-direction:column; 
+     margin-left: 100px ;
+     padding:30px;
+padding:70px 20px 70px 20px;
+     
+}
+.msg{
+    display:flex; 
+    flex-direction:column;
+    font-size: 30px;
+   margin-bottom: 30px;
+  
+       color: #363945;
+    font-size: 2.6em;
+    font-weight: 400px;
+    
+  
+        }
+ .watch-vedio{
+    
+        font-family: "Walsheim", sans-serif;
+    font-size: 20px;
+    
+    border-radius: 8px;
+ }
+ 
+.parent-2 {
+        display: flex;
+    }
+
+  
+.westia-hosting{
+    background: #fed24a;
+    width: 800px;
+    height: 400px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    padding-left:60px ;
+   
+}
+.westia-hosting>p{
+    
+     line-height: 30px;
+    font-size: 23px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.logo-test{
+    width: 55px;
+    height: 20px;
+    padding-top: 50px;
+
+}
+.title-white{
+      color: #fff;
+    width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 50px;
+   margin-bottom: 10px;
+      }
+.Soapbox{
+    background: #51c29f;
+    padding: 1px;
+    width: 800px;
+    height: 400px;
+    flex:1;
+    display: flex;
+     flex-direction:column;
+    padding-left:60px;
+
+    
+}
+
+.Soapbox p{
+     line-height: 30px;
+    font-size: 23px;
+   
+    width: 100%;
+}
+
+
+.Grow-your-video-skills{
+    background:#3ea9f5;
+    padding: 1px;
+    width: 800px;
+    height: 400px;
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    padding-left:60px;  
+}
+
+.Grow-your-video-skills p{
+     line-height: 30px;
+    font-size: 23px;
+  
+    width: 100%;
+}
+.start-for-free{
+    width: 150px;
+    height:50px; 
+    border:1px solid white;
+    background-color: transparent;
+     margin-top: 20px; 
+}
+
+.start-for-free:hover{
+    background-color: white;
+}
+
+.explore{ 
+ padding-top: 30px;
+    width: 150px;
+    height:50px;
+}
+
+.parth{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:#363945;
+    margin: 0px;
+}
+.wistia2{
+        margin: 60px auto;
+    display: flex;
+    max-width: 1280px;
+    flex-flow: row wrap;
+    align-items: center
+}
+.wistia-proud p {
+ padding-left: 15px;
+ padding-right: 15px;
+
+    
+}
+ .wistia-proud {
+         max-width: 160px;
+    padding: 0 30px;
+    font-weight: 600px;
+    font-size: 15px;
+    color: #9CA8B7;
+    font-weight: bold;
+ }
+/*margin-right: 30px
+
+display: flex;
+width: 88%;
+justify-content: space-between;*/
+
+.image1{
+ 
+flex: 1 1 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.img{
+    height: 110px;
+}
+.img1{
+height: 65px;
+}
+.image2{
+    display: flex;
+    justify-content: space-around;
+}
+.m1{
+
+}
+.container-1{
+    background-color: #AB8591;
+    width: 350px;
+    height: 255px;
+}
+.container-1 .m1 {
+width: 100%;
+cursor:pointer;
+opacity: 1;
+height: 255px;
+-webkit-transition: .1s ease-in-out;
+transition:  .1s ease-in-out;
+}
+.container-1:hover {
+opacity: .5;
+}
+
+.container-2{
+    background-color: #AB8591;
+    width: 350px;
+    height: 255px;
+}
+.container-2 .m2 {
+width: 100%;
+cursor:pointer;
+opacity: 1;
+height: 255px;
+-webkit-transition: .1s ease-in-out;
+transition:  .1s ease-in-out;
+}
+.container-2:hover {
+opacity: .5;
+}
+.container-3{
+    background-color: #AB8591;
+    width: 350px;
+    height: 255px;
+}
+.container-3 .m3 {
+width: 100%;
+cursor:pointer;
+opacity: 1;
+height: 255px;
+-webkit-transition: .1s ease-in-out;
+transition:  .1s ease-in-out;
+}
+.container-3:hover {
+opacity: .5;
+}
+.wistia3{
+    display: flex;
+    justify-content: space-around;
+  align-items: stretch;
+  padding: 15px;
+}
+
+.wistia3 h3{
+    font-size: 1.17em;
+    font-weight: bold;
+color: #363945;
+    -webkit-font-smoothing: antialiased;
+
+}
+.wistia3 p{
+    line-height: 28px;
+    margin-left: 50px
+        font-size: 18px;
+        color: #363945;
+    -webkit-font-smoothing: antialiased;
+
+}
+.wistia3 a{
+
+    color: #3ea9f5;
+}
+.updated{
+            color: #777777;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: center;
+    background-color: #e8e7e6;
+}
+.updated a{
+      color: #777777;
+}
+.footer{
+    background-color: #2a2d35;
+    padding:30px 60px 30px 60px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+.Follow{
+flex-direction: column;
+color: white;
+
+    font-size: 20px;
+    font-weight: 200px;
+    line-height: 35px;
+    -webkit-font-smoothing: antialiased;
+    
+
+}
+.logo5{
+    width: 50px;
+    background-size: 1px;
+    background-repeat: no-repeat;
+
+}
+.container-footer{
+  display: flex;
+  width:10165px;
+  height:211px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-1{
+      font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+}
+.footer-1 h4{
+    margin: 20px 150px 20px 0px;
+     width: 400px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+color: white;
+font-style: 10px;
+font-size: 20px;
+}
+.follow p{
+    padding: 0px 10px 0px 0px;
+        font-weight:200px;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+
+}
+.follow a{
+  color:   #217ad5;
+   text-decoration:none;
+
+}
+.liste-footer{
+     display: flex;
+    justify-content: space-around;
+   align-items: start;
+   color: white;
+    font-weight: bold;
+height: 50px;
+
+}
+.liste-footer a {
+    color: #595e66;
+   text-decoration:none;
+
+}
+.liste-footer a:hover,.liste-footer a:active{text-decoration: underline; 
+}
+.liste1{
+    list-style-type: none;
+
+line-height: 25px;
+    }    
+.liste2 {
+     list-style-type: none;
+
+line-height: 25px;
+}
+.liste3{
+     list-style-type: none;
+     
+     line-height: 25px;
+}
+.liste4{
+     list-style-type: none;
+    
+     line-height: 25px;
+}
+.bas{
+  display: flex;
+
+  align-items: flex-end;
+}
+.end{
+   background-color: #2a2d35;
+    padding:30px 60px 30px 60px;
+    height: 100px;
+    text-align: center;
+
+}
+hr{
+  padding: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ 
